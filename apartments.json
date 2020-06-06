@@ -1,0 +1,20 @@
+{
+    "apartments":[
+                {
+               "aId":"OD001",
+               "aName":"OD-001"
+                },
+                {
+                "aId":"A002",
+                "aName":"A-002"
+                },
+                {
+                "aId":"A003",
+                "aName":"A-003"
+                },
+                {
+                "aId":"OD004",
+                "aName":"OD-004"
+                }
+            ]
+}

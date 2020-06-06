@@ -3,17 +3,19 @@
         <title>Add Stock</title>
     </head>
 <body>
-    <h1>Add Item to Stock</h1>
+    <h1>Update Items in Stock</h1>
     <div class='buttonContainer'>
         <label for="item"><b>Item</b></label>
-        <input type="text" placeholder="Item Name" name="name" id="name" required>
+        <select name="item" id="items">
+            <option value="microwave">Microwave</option>
+            <option value="bulb">LED bulb</option>
+            <option value="Paper">Paper</option>
+            <option value="pen">Pen</option>
+          </select>
 
       <br>
       <label for="quantity"><b>Quantity</b></label>
       <input type="number" placeholder="Quantity" name="quantity" id="quantity" min="0" required>
-      <br>
-      <label for="location"><b>Location</b></label>
-      <input type="text" placeholder="Location" name="location" id="Loction">
       <br>
       <label for="link"><b>Website to order</b></label>
       <input type="url" placeholder="Webiste Link" name="link" id="link">
